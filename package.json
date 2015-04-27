@@ -1,0 +1,19 @@
+{
+  "name": "react-test",
+  "version": "0.0.1",
+  "description": "react test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "registakm",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3"
+  }
+}
