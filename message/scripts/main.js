@@ -9,9 +9,15 @@ var App = React.createClass({
     return (
       <div>
         <input type="text" onChange={this.updateMessage} />
-        <p>{this.state.message}</p>
+        <Message message={this.state.message} />
       </div>
     )
+  }
+});
+
+var Message = React.createClass({
+  render: function() {
+    return <p>{this.props.message}</p>
   }
 });
 
